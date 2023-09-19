@@ -1,27 +1,43 @@
-# SignupFormApp
+# Signup App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
+The Signup App is a web application built using Angular that allows users to sign up by providing their first name, last name, and email address. The captured information is submitted to a mock API endpoint.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- User-friendly signup form.
+- Form validation for required fields and email format.
+- Submission of user data to a mock API endpoint.
+- Responsive design for various screen sizes.
+- Error and success messages for form submission.
+- Clean and accessible user interface.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Follow these steps to set up the Signup App on your local machine:
 
-## Running unit tests
+1. **Clone the repository:**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```bash
+   git clone https://github.com/yourusername/signup-app.git
+   cd signup-app
+   ```
 
-## Running end-to-end tests
+2. **Install dependencies:**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```
+   npm install
+   ```
 
-## Further help
+3. **Run the application:**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```
+    npm start
+   ```
+
+   The app should now be running on http://localhost:4200/.
